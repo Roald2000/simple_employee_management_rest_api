@@ -71,6 +71,8 @@ so you can access it using your own `.env` file
 
 ### This API has features implemented :
 
+- My pitiful attempt with an MVC design/coding pattern after a brief research on how to implement it in an API
+  - M for Model represents the tables and methods on how to access these models such as creating, fetching, updating and deleting data, V for view but in this case are the Routes inside this routes are the controllers and the controllers access the Models based on what command/logic it is given or implemented, and C for controllers accessing the methods of the models applying logic to it
 - JWT Authentication
   - it is implemented as a middleware
   - Means every time you access the employee routes you first need to login to be granted an access token
@@ -83,7 +85,6 @@ so you can access it using your own `.env` file
 ### The API just as the title states is to manage employees information and their work/position on any department or how many position they hold. Simply saying using MySQL the data is structured with a One-to-Many relationship where there is only one personnel/employee and each of the employee can have many position they want to be assigned to by an admin or a user that has administrative access.
 
 ### To read more about how the API works simply go to the route endpoint `/api-docs` for more detailed API documentation with the swagger ui documentation for detailed and informative presentation of the API and provides accessibility
-
 
 <p style="color:red;">Im still not done with the swagger docs hehe 😉😉😘</p>
 
